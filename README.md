@@ -19,4 +19,14 @@ renders as this HTML:
 > </ul>
 > ```
 
+## Installation
 
+`pip install mdx-breakless-lists`
+
+## Usage
+
+```python
+from markdown import markdown
+
+html = markdown(text, extensions=['mdx_breakless_lists'])
+```
