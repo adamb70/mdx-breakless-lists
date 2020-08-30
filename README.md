@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/adamb70/mdx-breakless-lists.svg?branch=master)](https://travis-ci.com/adamb70/mdx-breakless-lists)
 # Breakless Lists Markdown Extension
 
 Use lists without requiring a line break above them, as in [GitHub flavoured markdown](https://github.github.com/gfm/#example-283).
