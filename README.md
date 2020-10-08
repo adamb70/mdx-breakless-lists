@@ -21,6 +21,7 @@ renders as this HTML:
 > ```
 
 ## Installation
+Install from [PyPI](https://pypi.org/project/mdx-breakless-lists/):
 
 `pip install mdx-breakless-lists`
 
