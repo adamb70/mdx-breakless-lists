@@ -19,9 +19,12 @@ class BreaklessListsProcessor(Preprocessor):
 
     def run(self, lines):
         previous_was_li = False
+        in_codefence = False
         new_lines = []
         for line in lines:
-            if self.LI_RE.match(line):
+            if line.startswith('```'):
+                in_codefence = not in_codefence
+            elif self.LI_RE.match(line) and not in_codefence:
                 if not previous_was_li:
                     # Add new blank line
                     new_lines.append('')

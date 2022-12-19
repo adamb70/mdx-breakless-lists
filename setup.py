@@ -13,7 +13,7 @@ def get_readme(filename):
 
 setup(
     name='mdx_breakless_lists',
-    version='1.0.1',
+    version='1.0.2',
     author='adamb70',
     description='Python Markdown package extension to allow lists without a preceding empty line.',
     license='MIT',
